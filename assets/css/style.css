@@ -1,0 +1,78 @@
+.sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    margin-left: 50px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+  }
+  .navItem{
+
+    font-size: x-small;
+
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  
+ul.social_icons {
+    float: left;
+    list-style-type: none;
+    display: inline;
+    font-size: 14px;
+    width: 100%;
+
+    padding: 0px 0px 0px 1em;
+}
+#share_button a {
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0.04em;
+    top: 0px;
+    opacity: 0.6;
+    font-family: arial;
+    font-size: 11px;
+    background: rgb(0, 0, 0);
+    margin: 3px 3px 4px 0px;
+    padding: 4px 11px;
+    text-decoration: none;
+    border-radius: 16px;
+    transition: opacity 0.3s ease 0s;
+}
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .wrapper{
+      max-height: 25%;
+      display: flex;
+
+  }
+
+  .wrapper .item{
+      height: 550px;
+      text-align: center;
+      margin-right: 750px;
+      background-color: cadetblue;
+  }
