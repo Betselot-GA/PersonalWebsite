@@ -65,14 +65,14 @@ ul.social_icons {
   }
 
   .wrapper{
-      max-height: 25%;
+
       display: flex;
 
   }
 
   .wrapper .item{
-      height: 550px;
+
       text-align: center;
-      margin-right: 750px;
+    
       background-color: cadetblue;
   }
