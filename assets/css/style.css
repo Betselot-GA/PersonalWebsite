@@ -1,45 +1,4 @@
-.sidenav {
-    height: 100%;
-    width: 230px;
-    position: fixed;
-    margin-left: 50px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000;
-    display: block;
-  }
-  .navItem{
-
-    font-size: x-small;
-
-  }
-
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-
-  
-ul.social_icons {
-    float: left;
-    list-style-type: none;
-    display: inline;
-    font-size: 14px;
-    width: 100%;
-
-    padding: 0px 0px 0px 1em;
-}
 #share_button a {
     color: rgb(255, 255, 255);
     position: relative;
@@ -59,10 +18,7 @@ ul.social_icons {
 }
 
 
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  
 
   .wrapper{
 
@@ -76,3 +32,83 @@ ul.social_icons {
     
       background-color: cadetblue;
   }
+
+  @media (max-width:765px){
+    .navbar{
+        background-color: white;  
+    }
+
+    .editorial{
+      background-color: lawngreen;
+      height: 500px;
+      margin-top: 19%;
+      
+
+    }
+
+    img{
+     
+    }
+    .nav{
+        text-align: center;
+       
+       justify-content: center;
+        margin-top: 15%;
+        height:500px;
+        background-color:white;
+
+    }
+    ul>li{
+        
+        height: 10%;
+       
+    }
+
+    ul>ul>li{
+        
+        margin-left: 3%;
+     
+    }
+
+    .linkedIn{
+        margin-top: 30%;
+    }
+
+  
+}
+
+@media (min-width:765px){
+    .navbar{
+        background-color: white;
+       width: 252px;
+       margin-left: 3%;
+    }
+    .social_icons{
+        margin-top: 180px;
+    }
+    .nav{
+        text-align: left;
+        
+        margin-top: 10%;
+
+        height: 700px;
+        background-color: white;
+    }
+    .editorial{
+      margin-top: 4%;
+      height: 550px;
+      
+    }
+    .brandname{
+      margin-top: 20%;
+    }
+}
+
+@media(max-width:500px){
+    .collapsed{
+        margin-left: 300px;
+    }
+}
+
+
+ 
