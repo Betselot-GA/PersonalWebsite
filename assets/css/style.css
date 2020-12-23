@@ -42,8 +42,14 @@
       background-color: lawngreen;
       height: 500px;
       margin-top: 19%;
-      
+    }
 
+    .bblog{
+      width: 10px;
+    }
+    .blog{
+      width: 90%;
+      margin-top: 100px;
     }
 
     img{
