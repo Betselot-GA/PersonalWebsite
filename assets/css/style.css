@@ -1,4 +1,9 @@
 
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
 #share_button a {
     color: rgb(255, 255, 255);
     position: relative;
