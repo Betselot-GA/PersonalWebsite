@@ -1,0 +1,148 @@
+
+ html, body{
+  max-width: 100%;
+overflow-x: hidden !important;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  #share_button a {
+      color: rgb(255, 255, 255);
+      position: relative;
+      font-weight: bold;
+      line-height: 1em;
+      letter-spacing: 0.04em;
+      top: 0px;
+      opacity: 0.6;
+      font-family: arial;
+      font-size: 11px;
+      background: rgb(0, 0, 0);
+      margin: 3px 3px 4px 0px;
+      padding: 4px 11px;
+      text-decoration: none;
+      border-radius: 16px;
+      transition: opacity 0.3s ease 0s;
+  }
+  
+  
+    
+  
+    .wrapper{
+  
+        display: flex;
+  
+    }
+  
+    .wrapper .item{
+  
+        text-align: center;
+      
+    
+    }
+  
+    @media (max-width:765px){
+      .navbar{
+          background-color: white;  
+      }
+  
+      .editorial{
+        height: 500px;
+        margin-top: 22%;
+      }
+  
+      .bblog{
+        margin-top: 128px;
+      }
+      .blog{
+        width: 90%;
+        margin-top: 100px;
+      }
+  
+      .nav{
+          text-align: center;
+         width: 100%;
+         line-height: 0px;
+         justify-content: center;
+          margin-top: 15%;
+          margin-left: 20%;
+          height:650px;
+          
+      }
+  
+      .navdiv{
+        background-color: grey;
+        height: 200px;
+      }
+  
+    
+      ul>li{
+          
+          height: 10%;
+         
+      }
+  
+      ul>ul>li{
+          
+          margin-left: 3%;
+       
+      }
+  
+      .linkedIn{
+          margin-top: 30%;
+      }
+  
+    
+  }
+  
+  @media (min-width:760px){
+      .navbar{
+       
+         width: 217px;
+         margin-left: 3%;
+         background-color: rgba(255, 255, 255, 0.9);
+      }
+      .social_icons{
+          margin-top: 350px;
+          margin-left: 20%;
+      }
+      .nav{
+          text-align: left;
+          
+          margin-top: 10%;
+  
+          height: 700px;
+          background-color: rgba(255, 255, 255, 0.2);
+      }
+      .editorial{
+        margin-top: 4%;
+        height: 550px;
+        
+      }
+      .editorial_one{
+        margin-left: 18%;
+      }
+      .brandname{
+        margin-top: 20%;
+      }
+  
+      .bblog{
+        margin-left: 150px;
+      }
+  }
+  
+  @media(max-width:740px){
+      .collapsed{
+          margin-left: 300px;
+      }
+      html, body{
+        max-width: 100%;
+    overflow-x: hidden !important;
+      }
+  }
+  
+ 
+  
+  
+   
